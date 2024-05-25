@@ -3,7 +3,6 @@
   margin: 0px;
   padding: 0px;
 }
-
 .modebtn{
   width: 100%;
   font: 700 1.2rem sans-serif;
@@ -30,7 +29,7 @@
   background-image: radial-gradient(white,#870dbc);
 }
 .movebtn{
-  font: 400 0.8rem sans-serif;
+  font: 400 1.5vh sans-serif;
   background: #ab0bf0; 
   padding: 10px;
   color: white;
@@ -51,7 +50,7 @@
 
 .status{
   margin-bottom: 30px;
-  font: 700 1.2rem sans-serif;
+  font: 700 2.5vh sans-serif;
   background: #ab0bf0; 
   padding: 20px;
   color: white;
@@ -69,12 +68,12 @@
 }
 
 .square {
-  width: 70px;
-  height: 70px;
+  width: 10vh;
+  height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  font: 700 50px sans-serif;
+  font: 700 8vh sans-serif;
   cursor: pointer;
   border: 3px solid #ab0bf0;
   background-color: #fff;
@@ -89,4 +88,8 @@
 
 .square:hover {
   background-color: #f0f0f0;
+}
+
+@media screen and (max-width:700px){
+  
 }
