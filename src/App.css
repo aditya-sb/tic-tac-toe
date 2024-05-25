@@ -1,0 +1,92 @@
+/* App.css */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.modebtn{
+  width: 100%;
+  font: 700 1.2rem sans-serif;
+  background: #ab0bf0; 
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10%;
+}
+.modebtn:hover{
+  background-color:#870dbc;
+}
+.game{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  background-image: radial-gradient(silver,black);
+  height: 100vh;
+  width: 100vw;
+}
+.html{
+  background-image: radial-gradient(white,#870dbc);
+}
+.movebtn{
+  font: 400 0.8rem sans-serif;
+  background: #ab0bf0; 
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.movebtn:hover{
+  background-color:#870dbc;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.status{
+  margin-bottom: 30px;
+  font: 700 1.2rem sans-serif;
+  background: #ab0bf0; 
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+} 
+.xstatus{
+  background: crimson;
+}
+.ostatus{
+  background: blue;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 700 50px sans-serif;
+  cursor: pointer;
+  border: 3px solid #ab0bf0;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+.x{
+  color: crimson;
+}
+.o{
+  color: blue;
+}
+
+.square:hover {
+  background-color: #f0f0f0;
+}
